@@ -12,11 +12,11 @@ import "./index.css";
 function App() {
   return (
     <div>
-    <NavBar/>
-    <Profile/>
-    <AboutMe/>
-    <Skills/>
-    <Projects/>
+      <NavBar/> 
+      <Profile/>
+      <AboutMe/>
+     <Skills/>
+     <Projects/>
     <Footer/>
     </div>
   );

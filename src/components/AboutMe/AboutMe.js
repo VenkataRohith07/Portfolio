@@ -10,7 +10,7 @@ function AboutMe(){
         <div className={styles.container}>
         <Container id="aboutme" >
             <h1 className={styles.heading}> About Me</h1>
-            <Grid container spacing={4} justifyContent="center">
+            <Grid container spacing={4} justifyContent="center" className={styles.family}>
                 <Grid item xs={12} md={4} lg={3} className={styles.img}>
                     <img className={styles.image} src={imageURL} alt="Profile"/>
                 </Grid>
